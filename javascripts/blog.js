@@ -35,17 +35,23 @@ var blogs = [
         date: "3/13/18",
         post: "I feel pretty comfortable so far with the making tickets portion. We are currently in the process of a group project that is designed to mimic the how things work within a job atmosphere. Its seems simple going through the actions of creating columns of different stages of the process involved with completing tasks needed for final products. Adding tickets to the projects and making detailed cards for those tickets is lengthy but well needed for good communication and understanding what needs to be accomplished as a team."
     },
+    {
+        id: "blog7",
+        title: "ES6, DOM Interaction, and markdown.",
+        date: "3/27/18",
+        post: "I feel behind. When it comes to ES6 it mostly makes sense. I am still though working on figure out how to write functions. What goes where and just simply where to start to accomplish what I want with a function is my issue. I know what I need to do to get better and that is to practice. Time is my biggest enemy in this scholastic adventure I am on and its whooping up on me for sure. With Dom Interaction, I feel the same way, it makes sense to me but to capture the exact syntax and knowing what goes where are my struggles. Markdown I can understand as well and I feel alright with it. I guess I just need to search for time some where to practice. One thing I struggle with, as far as time, is my schedule. I going to have to wrestle this year into submission to achieve this goal of becoming a Full Stack Developer. I am proud of how far I have come but still feel inadequate. "
+    }
 ];
 
 function writeToDom (strang) {
-    document.getElementById("my-blogs").innerHTML = strang;
+    document.getElementById("my-blogs").innerHTML += strang;
 };
 
 function createBlogPosts (blogsArray) {
     for ( var i = 0; i < blogsArray.length; i++){
         var domString = "";
         domString += '<div>'
-        domString += '<h2 id="' + blogsArray[i].id + '">' + blogsArray[i].title + blogsArray[i].date + '</h2>'
+        domString += '<h2 id="' + blogsArray[i].id + '">' + blogsArray[i].title + " " + blogsArray[i].date + '</h2>'
         domString += '<p>' + blogsArray[i].post + '/p>'
         domString += "</div>"
         writeToDom(domString);

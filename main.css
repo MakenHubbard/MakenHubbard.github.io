@@ -3,13 +3,13 @@
 li {
     display: inline;
     color: black;
-    margin-left: 9%;
+    margin-left: 15px;
 }
 a:link {
     background-color: white;
     border: 1px solid yellow;
     padding: 2px 5px;
-    font-size: 230%;
+    font-size: 150%;
 }
 
 a:hover {
