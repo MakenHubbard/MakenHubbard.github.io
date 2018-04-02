@@ -49,17 +49,17 @@ var blogs = [
     }
 ];
 
-function writeToDom (strang) {
+const writeToDom = (strang) => {
     document.getElementById("my-blogs").innerHTML += strang;
 };
 
-function createBlogPosts (blogsArray) {
-    for ( var i = 0; i < blogsArray.length; i++){
-        var domString = "";
-        domString += '<div>'
-        domString += '<h2 id="' + blogsArray[i].id + '">' + blogsArray[i].title + " " + blogsArray[i].date + '</h2>'
-        domString += '<p>' + blogsArray[i].post + '/p>'
-        domString += "</div>"
+const createBlogPosts = (blogsArray) => {
+    for ( let i = 0; i < blogsArray.length; i++){
+        let domString = "";
+        domString += `<div>
+                        <h2 id="${blogsArray[i].id}">${blogsArray[i].title} ${blogsArray[i].date}</h2>
+                            <p> ${blogsArray[i].post}</p>
+                      </div>`
         writeToDom(domString);
     }
 };
