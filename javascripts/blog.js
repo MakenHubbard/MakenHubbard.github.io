@@ -40,6 +40,12 @@ var blogs = [
         title: "ES6, DOM Interaction, and markdown.",
         date: "3/27/18",
         post: "I feel behind. When it comes to ES6 it mostly makes sense. I am still though working on figure out how to write functions. What goes where and just simply where to start to accomplish what I want with a function is my issue. I know what I need to do to get better and that is to practice. Time is my biggest enemy in this scholastic adventure I am on and its whooping up on me for sure. With Dom Interaction, I feel the same way, it makes sense to me but to capture the exact syntax and knowing what goes where are my struggles. Markdown I can understand as well and I feel alright with it. I guess I just need to search for time some where to practice. One thing I struggle with, as far as time, is my schedule. I going to have to wrestle this year into submission to achieve this goal of becoming a Full Stack Developer. I am proud of how far I have come but still feel inadequate. "
+    },
+    {
+        id: "blog8",
+        title: "XHR Requests",
+        date: "4/2/18",
+        post: "So currently, I have done some extra studying up on js Functions, Objects, and Arrays and getting a better understanding of it all and for the most part with some brief research can implement ES6 into it. We have moved onto creating XHR Requests and using JSON. I feel like with some compounding usage of the idea I could definitely get used to doing the requests. I am currently in the process of doing this with this blog. We have to convert this js array into JSON and then write the XHR request in this js so that the data will be pulled form the JSON file I will soon add. So we will see how that goes in a little bit. I knew this course was going to be hard and it has definitely lived up to that expectation and then some. I feel though my biggest draw back is just not having enough general knowledge of computers when I embarked on this scholastic journey. I feel as if I will be a work in progress while making progress in my work."
     }
 ];
 
