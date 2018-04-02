@@ -2,7 +2,7 @@ const startApp = () => {
     let myRequest = new XMLHttpRequest();
     myRequest.addEventListener("load",executeCodeAfterFileLoad);
     myRequest.addEventListener("error",executeThisIfXHRFails);
-    myRequest.open("GET","projects.json");
+    myRequest.open("GET","../db/projects.json");
     myRequest.send();
 }
 
