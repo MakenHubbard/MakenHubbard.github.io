@@ -49,6 +49,14 @@ var blogs = [
     }
 ];
 
+const startApplication = () => {
+    let myRequest = new XMLHttpRequest();
+    myRequest.addEventListener("load", executeOnLoad);
+    myRequest.addEventListener("error",executeOnFail);
+    myRequest.open("Get","../db/blogs.json");
+    myRequest.send();
+}
+
 const writeToDom = (strang) => {
     document.getElementById("my-blogs").innerHTML += strang;
 };
