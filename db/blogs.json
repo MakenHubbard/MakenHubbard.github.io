@@ -59,5 +59,23 @@
         "title": "Task Runners and Browserify",
         "date": "4/10/18",
         "post": "Task Runners and Browserify are pretty heavy concepts to work with but I, as always, feel optimistic. Considering, I could use use some more growth on the XHR Requests, ES6, Dom Interaction, and Functions this will be challenging. I have a lot of to get done still and plan to work hard on getting it done so I my instructors do not see ma as lazy AND full blown ignorant. I needed help on something today so I went to one of the instructors looking for answers. As we ran through the code and questions I felt like I did not know a single thing. I also felt she was trying hard to keep het composure and refrain from shaming me for my lack of knowledge at this point in the course. At least that is how I felt I would feel about it. Nonetheless, I can always fall back on being a beast at getting these blog posts done. haha. Goals: I am going to dive in deeper into my school work to capture some sense of this mess and hopefully be good at this one day,preferably sooner than later."
+    },
+    {
+        "id": "blog11",
+        "title": "Task Runners and Browserify 2",
+        "date": "4/18/2018",
+        "post": "We have taken a deeper plunge into task runners and browserify and I am semi lost to say the least. I can not grasp the concept of where to write a function. I understand how to export and require functions. I just seem to lack understanding of what I am doing for the most part. If who ever is reading this has read my entire blogs page, I disappointingly admit that I still have little understanding of functions and how/what to pass and what not. On the bright side of my potential demise in this course, I am acquiring more and more knowledge of how functions function little bit by little bit."
+    },
+    {
+        "id": "blog12",
+        "title": "The Chatty project",
+        "date": "4/30/2018",
+        "post": "We were assigned a project the dynamically displays pre-loaded and user entry messages to a message board that had delete buttons attached them. In addition to that we also had to create a clear button that would clear the message board. We also had to have two checkboxes the would alter the color of the message board background and text and the other would change the size of the text to a larger size. This all was challenging. After receiving help on most of the javascript functions I really began to feel like I understood the concepts. It was a pretty cool project to say the least. I enjoyed the learning experience. The instructors wanted my group to co-code the project and I feel that was really helpful and brought insight to the different ways certain tasks could be accomplished."
+    },
+    {
+        "id": "blog13",
+        "title": "jQuery",
+        "date": "4/30/2018",
+        "post": "We were introduced to jQuery tonight. It seems to be the silver lining to this coding deal thus far. In this first lecture I understand what is going but I have to jump on practicing on writing it. I'm also thinking that to solidify the usage of jQuery, I should run through what all is possible with using jQuery. I am excited about this code. I am gonna try to still practice and understand how things work in vanilla js. I feel like my knowledge of vanilla js is still sub-par."
     }
 ]}
