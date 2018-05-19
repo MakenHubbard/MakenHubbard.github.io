@@ -77,5 +77,11 @@
         "title": "jQuery",
         "date": "4/30/2018",
         "post": "We were introduced to jQuery tonight. It seems to be the silver lining to this coding deal thus far. In this first lecture I understand what is going but I have to jump on practicing on writing it. I'm also thinking that to solidify the usage of jQuery, I should run through what all is possible with using jQuery. I am excited about this code. I am gonna try to still practice and understand how things work in vanilla js. I feel like my knowledge of vanilla js is still sub-par."
+    },
+    {
+        "id": "blog14",
+        "title": "Promises",
+        "date": "5/19/2018",
+        "post": "Promises...a new way to get data. The thing I like about promises is that it does away with getter and setter function. You ca get the data and as that data comes in you can manipulate it into arrays to be used. I understand the concept some and need to get more understanding of how to write. As well as learning what needs to go where when there is an array in a object of an array of objects."
     }
 ]}
