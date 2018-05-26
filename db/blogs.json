@@ -82,6 +82,12 @@
         "id": "blog14",
         "title": "Promises",
         "date": "5/19/2018",
-        "post": "Promises...a new way to get data. The thing I like about promises is that it does away with getter and setter function. You ca get the data and as that data comes in you can manipulate it into arrays to be used. I understand the concept some and need to get more understanding of how to write. As well as learning what needs to go where when there is an array in a object of an array of objects."
+        "post": "Promises...a new way to get data. The thing I like about promises is that it does away with getter and setter function. You can get the data and as that data comes in you can manipulate it into arrays to be used. I understand the concept some and need to get more understanding of how to write. As well as learning what needs to go where when there is an array in a object of an array of objects."
+    },
+    {
+        "id": "blog15",
+        "title": "API's",
+        "date": "5/26/2018",
+        "post": "Api's are really cool and all but I have yet to get good at them. Part of the problem I am having is that I am still having trouble with promises in the sense of where and when things should be called. I wish this stuff would just come easy for me but unfortunately that is not the case. I have lots of work to do and little time to do it. LET'S GO!!! One thing that does make me nervous about Api's is making sure to hide the key before pushing it up to github. It will be my luck that I will be successful at doing it on the keys that wont be detrimental to my bank account and mess up on some small syntax issue with keys that deal with account information."
     }
 ]}
