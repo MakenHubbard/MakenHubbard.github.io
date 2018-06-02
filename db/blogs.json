@@ -89,5 +89,11 @@
         "title": "API's",
         "date": "5/26/2018",
         "post": "Api's are really cool and all but I have yet to get good at them. Part of the problem I am having is that I am still having trouble with promises in the sense of where and when things should be called. I wish this stuff would just come easy for me but unfortunately that is not the case. I have lots of work to do and little time to do it. LET'S GO!!! One thing that does make me nervous about Api's is making sure to hide the key before pushing it up to github. It will be my luck that I will be successful at doing it on the keys that wont be detrimental to my bank account and mess up on some small syntax issue with keys that deal with account information."
+    },
+    {
+        "id": "blog16",
+        "title": "Firebase",
+        "date": "6/2/2018",
+        "post": "Firebase is tricky. It is confusing and I haven't applied yet other than in the class work. I need to try to do it but jst worried of breaking my code. haha. It is a lot to have things post to the firebase and have it generate a special id for each post and then have it update when something is deleted. I just think I could use some more time with it. One of our assignments is to put this personal page in firebase. Soooo that will be fun!"
     }
 ]}
