@@ -1,0 +1,1 @@
+// const firebaseApi = require('./firebaseApi');
