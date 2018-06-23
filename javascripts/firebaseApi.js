@@ -9,16 +9,15 @@ const getConfig = () => {
 const setConfig = (newConfig) => {
   config = newConfig;
 };
-
 const loadConfig = () => {
-  return new Promise((resolve,reject) => {
+  return new Promise((resolve, reject) => {
     $.ajax({
       method: 'GET',
-      url: '/db/apiKeys.json',
-    }).done((results) => {
+      url: `/db/apiKeys.json`,
+    }).done(results => {
       resolve(results.firebaseConfig);
-    }).fail((error) => {
-      reject(error);
+    }).fail(err => {
+      reject(err);
     });
   });
 };
@@ -45,17 +44,19 @@ const getBlogsFromFirebase = () => {
   });
 };
 
-// const initializer = () => {
-//   loadConfig().then((firebaseConfig) => {
-//     setConfig(firebaseConfig);
-//     firebase.initializeApp(firebaseConfig);
-//   });
-// };
+const initialize = () => {
+  loadConfig().then((firebaseConfig) => {
+    setConfig(firebaseConfig);
+    firebase.initializeApp(firebaseConfig);
+  }).catch((err) => {
+    console.error('Error initializing Firebase', err);
+  });
+};
 
 module.exports = {
-  // initializer,
+  initialize,
+  loadConfig,
   getConfig,
   setConfig,
-  loadConfig,
   getBlogsFromFirebase,
 };
