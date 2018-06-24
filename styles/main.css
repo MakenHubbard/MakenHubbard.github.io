@@ -1,5 +1,17 @@
+/*------------------HTML--------------------*/
 
-/*------------------nav bar------------------*/
+body {
+    background: url(../images/main-page.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+  }
+
+
+/*------------------NAV BAR------------------*/
+
 li {
     display: inline;
     color: black;
@@ -28,9 +40,87 @@ a:visited {
     font-size: 150%;
 }
 
-/*----------------MAIN PAGE----------------*/
+button {
+     margin-top:20px;
+    font-family: 'Eater', cursive;
+    font-size: 60px;
+    opacity: 0.3;
+}
 
-/*----------------project page-------------*/
+#brandName {
+    font-size: 60px;
+}
+
+#brandName:hover {
+    font-family: 'Eater', cursive;
+    font-size: 60px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.navBack {
+    background-color: lightseagreen;
+    box-sizing: 0;
+}
+
+/*----------------HEAD PAGE----------------*/
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+.pull-left{
+    float: left !important;
+}
+
+.mainHead {
+    display: flex;
+    flex-direction: row;
+    height: 10em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+#picOfMe {
+    animation:
+      stretch
+      1.5s
+      ease-out
+      0s
+      alternate
+      1
+      none
+      running;
+  }
+
+  @keyframes stretch {
+    0% {
+      transform: scale(.2);
+      transform: rotate(.2);
+      border-radius: 100%;
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+  /*--------------BLOGS PAGE---------------*/
+
+#blogsPage{
+    padding: 20px 30px;
+    background-color: lightslategray;
+    opacity: .9;
+    color: white;
+}
+
+/*----------------PROJECT PAGE-------------*/
 img {
     height: 300px;
     width: 300px;

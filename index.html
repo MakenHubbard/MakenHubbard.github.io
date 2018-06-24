@@ -8,12 +8,13 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Eater|Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
 </head>
 
 <body>
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class=" navBack container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -38,34 +39,45 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div id="mainHead">
-        <h1>Maken Hubbard</h1>
+    <div class="container">
+        <div id="mainHead">
+            <div class="pull-left" id="aboutMe">
+                <h2>A Little Bit About Me...</h2>
+                <p>Before I heard of NSS, I barely knew anything about computers. I just have always worked in some manual labor job where computer were irrelevant. I was guided to the path of web development by a friend. He suggested that I go onto Team Treehouse and take some courses just to see if I think I would like it. I did and was intrigue on how creativly rewarding it is to development something by coding. So here I am, currently on the road to becoming a Full-Stack Developer and anxiously awaiting a change in career paths to the ever=growing tech industry.</p>
+            </div>
+            <div style="float:right;"class="pull-right" id="myName">
+                <div id="picOfMe">
+                    <img src="../images/me.jpg" rel="me">
+                </div>
+                <h1>Maken Hubbard</h1>
+            </div>
+        </div>
+        <div id="projectsPage" class="hide">
+            <h2>My Projects</h2>
+            <div id="projectsDiv"></div>
+        </div>
+        <div id="blogsPage" class="hide">
+            <h2>My Journey</h2>
+            <div id="blogsDiv"></div>
+        </div>
+        <div id="techPage" class="hide">
+            <h2>Technologies</h2>
+            <div></div>
+        </div>
+        <div id="contactPage" class="hide">
+            <h2>How toContact Me</h2>
+            <ul>
+                <li>My Email:
+                    <a href="mailto:makhub26@outlook.com">makhub26@outlook.com</a>
+                </li>
+                <li>My GitHub Account:
+                    <a href="https://github.com/MakenHubbard/MakenHubbard.github.io">MakenHubbard.github.io</a>
+                </li>
+                <li>My LinkedIn Account:</li>
+                <li></li>
+            </ul>
+        </div>
     </div>
-    <div id="projectsPage" class="hide">
-        <h2>My Projects</h2>
-        <div id="projectsDiv"></div>
-    </div>
-    <div id="blogsPage" class="hide">
-        <h2>My Journey</h2>
-        <div id="blogsDiv"></div>
-    </div>
-   <div id="techPage" class="hide">
-       <h2>Technologies</h2>
-       <div></div>
-   </div>
-   <div id="contactPage" class="hide">
-       <h2>How toContact Me</h2>
-       <ul>
-            <li>My Email:
-                <a href="mailto:makhub26@outlook.com">makhub26@outlook.com</a>
-            </li>
-            <li>My GitHub Account:
-                <a href="https://github.com/MakenHubbard/MakenHubbard.github.io">MakenHubbard.github.io</a>
-            </li>
-            <li>My LinkedIn Account:</li>
-            <li></li>
-        </ul>
-   </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
