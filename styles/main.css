@@ -12,43 +12,16 @@ body {
 
 /*------------------NAV BAR------------------*/
 
-li {
-    display: inline;
-    color: black;
-    margin-left: 15px;
-}
-a:link {
-    background-color: white;
-    border: 1px solid yellow;
-    padding: 2px 5px;
-    font-size: 150%;
-}
-
-a:hover {
-    color: orange;
-    background-color: gold;
-}
-
-a:active {
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-a:visited {
-    padding: 5px;
-    font-size: 150%;
-}
-
 button {
      margin-top:20px;
     font-family: 'Eater', cursive;
     font-size: 60px;
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 #brandName {
     font-size: 60px;
+    color: black;
 }
 
 #brandName:hover {
@@ -61,7 +34,7 @@ button:hover {
 }
 
 .navBack {
-    background-color: lightseagreen;
+    background-color: lightskyblue;
     box-sizing: 0;
 }
 
@@ -70,8 +43,17 @@ h1{
     font-family: 'Pacifico', cursive;
 }
 
-.pull-left{
-    float: left !important;
+#aboutMe {
+    height: 60%;
+    width: 50%;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 5px 20px;
+    background-color: lightslategray;
+    opacity: .9;
+    color: white;
+    border-radius: 4%;
 }
 
 .mainHead {
@@ -82,11 +64,21 @@ h1{
     justify-content: space-between;
 }
 
-.pull-right {
-    float: right !important;
+#myName {
+    background-color: slategray;
+    border-radius: 4%;
+    opacity: .9;
+    color: white;
+    text-align: center;
+}
+
+#me{
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 #picOfMe {
+    padding: 15px;
     animation:
       stretch
       1.5s
