@@ -8,7 +8,7 @@ const hideAndSeek = () => {
       $('#blogsPage').addClass('hide');
       $('#techPage').addClass('hide');
       $('#contactPage').addClass('hide');
-      // projects build dom function here
+      dom.buildDomForProjects();
     } else if (e.target.id === 'blogBtn') {
       $('#mainHead').addClass('hide');
       $('#projectPage').addClass('hide');

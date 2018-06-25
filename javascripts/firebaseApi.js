@@ -23,7 +23,7 @@ const loadConfig = () => {
 };
 
 const getBlogsFromFirebase = () => {
-  return new Promise((resolve,reject) => {
+  return new Promise((resolve, reject) => {
     const blogsArray = [];
     $.ajax({
       method: 'GET',
@@ -37,6 +37,28 @@ const getBlogsFromFirebase = () => {
           });
         }
         resolve(blogsArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
+const getProjectsFromFirebase = () => {
+  return new Promise((resolve, reject) => {
+    const projectsArray = [];
+    $.ajax({
+      method: 'GET',
+      url: `${config.databaseURL}/projects.json`,
+    })
+      .done((projectEntries) => {
+        if (projectEntries !== null) {
+          Object.keys(projectEntries).forEach((fbKey) => {
+            projectEntries[fbKey].id = fbKey;
+            projectsArray.push(projectEntries[fbKey]);
+          });
+        }
+        resolve(projectsArray);
       })
       .fail((error) => {
         reject(error);
@@ -59,4 +81,5 @@ module.exports = {
   getConfig,
   setConfig,
   getBlogsFromFirebase,
+  getProjectsFromFirebase,
 };
