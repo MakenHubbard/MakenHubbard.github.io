@@ -120,5 +120,12 @@ img {
 }
 
 
+/*---------------TECHNOLOGIES PAGE-------------*/
+
+.techs {
+    height: 100px;
+    width: 100px;
+}
+
 /*---------------MEDIA QUERIES------------*/
 
