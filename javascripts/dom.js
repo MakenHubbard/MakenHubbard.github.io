@@ -15,10 +15,30 @@ const buildDomForBlogs = () => {
     });
 };
 
+const buildDomForProjects = () => {
+  firebaseApi.getProjectsFromFirebase()
+    .then((projectsArray) => {
+      let projectString = '';
+      projectsArray.forEach((project) => {
+        projectString += `<div class="jumbotron">`;
+        projectString += `<h1>${project.title}</h1>`;
+        projectString += `<p>${project.description}</p>`;
+        projectString += `  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>`;
+        projectString += `</div >`;
+      });
+      printProjectsToDom(projectString);
+    });
+};
+
 const printBlogsToDom = (blog) => {
   $('#blogsPage').html(blog);
 };
 
+const printProjectsToDom = (project) => {
+  $('#projectsDiv').html(project);
+};
+
 module.exports = {
   buildDomForBlogs,
+  buildDomForProjects,
 };

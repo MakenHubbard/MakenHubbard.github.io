@@ -1,36 +1,29 @@
 {
-	"projects": [{
-			"project1": {
-				"title": "Local Weather",
-				"thumbnail": "https://XXX.jpg",
-				"description": "This is a product and technical description for the project",
-				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
-				"available": true,
-				"url": "https://XXX.firebaseapp.com",
-				"github": "https://github.com/XXX"
-			}
-		},
-		{
-			"project2": {
-				"title": "ChattyDom",
-				"thumbnail": "https://XXX.jpg",
-				"description": "This is a product and technical description for the project",
-				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
-				"available": true,
-				"url": "https://XXX.firebaseapp.com",
-				"github": "https://github.com/XXX"
-			}
-		},
-		{
-			"project3": {
-				"title": "Nutshell",
-				"thumbnail": "https://XXX.jpg",
-				"description": "This is a product and technical description for the project",
-				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
-				"available": true,
-				"url": "https://XXX.firebaseapp.com",
-				"github": "https://github.com/XXX"
-			}
-		}
-	]
+	"project1": {
+		"title": "Local Weather",
+		"thumbnail": "https://XXX.jpg",
+		"description": "This is a product and technical description for the project",
+		"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+		"available": true,
+		"url": "https://XXX.firebaseapp.com",
+		"github": "https://github.com/XXX"
+	},
+	"project2": {
+		"title": "ChattyDom",
+		"thumbnail": "https://XXX.jpg",
+		"description": "This is a product and technical description for the project",
+		"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+		"available": true,
+		"url": "https://XXX.firebaseapp.com",
+		"github": "https://github.com/XXX"
+	},
+	"project3": {
+		"title": "Nutshell",
+		"thumbnail": "https://XXX.jpg",
+		"description": "This is a product and technical description for the project",
+		"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+		"available": true,
+		"url": "https://XXX.firebaseapp.com",
+		"github": "https://github.com/XXX"
+	}
 }
