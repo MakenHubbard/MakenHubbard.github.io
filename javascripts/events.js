@@ -34,7 +34,7 @@ const hideAndSeek = () => {
       $('#blogsPage').addClass('hide');
       $('#techPage').addClass('hide');
       $('#contactPage').addClass('hide');
-    }
+    };
   });
 };
 
