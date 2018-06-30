@@ -9,9 +9,9 @@
 		"github": "https://github.com/MakenHubbard/local-weather"
 	},
 	"project2": {
-		"title": "Ex Tracker",
-		"thumbnail": "Image Being collected",
-		"description": "THis is a project that was created to keep an eye on your exs' so that you could avoid. By clicking on one the ex cards it will display a card that has the infor on that particular ex and also the places that ex will be so that you could avoid them",
+		"title": "Movie Maker",
+		"thumbnail": "https://raw.githubusercontent.com/MakenHubbard/Movie-Maker/master/screenshots/budget-exceeded.PNG",
+		"description": "We were assigned this movie maker project in which we needed to create a way to set a budget, have a progress bar that corresponded a condition of having an element selected in all four categories. We had to display a message that states you could not make the movie until that condition is met as well as going over budget. We also had to display a message that states you can now make the movie when the requirements are met.",
 		"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
 		"available": true,
 		"url": "Coming Soon",
