@@ -23,7 +23,11 @@ const buildDomForProjects = () => {
         projectString += `<div class="jumbotron">`;
         projectString += `<h1>${project.title}</h1>`;
         projectString += `<p>${project.description}</p>`;
-        projectString += `  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>`;
+        projectString += `<span> Technologies used: ${project.technologiesUsed}</span>`;
+        projectString += `<ul>`;
+        projectString += `<li>URL: <a href="${project.url}">Click Here</a></li>`;
+        projectString += `<li>Github: <a href="${project.github}">Click Here</a>`;
+        projectString += `</ul>`;
         projectString += `</div >`;
       });
       printProjectsToDom(projectString);

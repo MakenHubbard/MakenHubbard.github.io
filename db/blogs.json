@@ -83,5 +83,10 @@
 		"title": "Firebase Auth",
 		"date": "6/11/2018",
 		"post": "Firebase Authorization is pretty cool. Just need get sometime to work more on the topic. the user id functions and where and how its supposed to be used is kinda of confusing. I have to commit some time to it."
+	},
+	"blog18": {
+		"title": "React",
+		"date": "6/29/2018",
+		"post": "Hmm what to say about React. Number one: It is a lot of setup and I mean a lot, I had to write down step by step directions and it helps but still makes for a slow go. I think React is super cool but cinsidering we just started with it... It is still pretty confusing. I feel good about using the components but its when it comes state stuff is when I start to get confused. I can see though why its good language. I feel that if I could learn this language it could be super beneficial and pretty awesome."
 	}
 }

@@ -2,28 +2,28 @@
 	"project1": {
 		"title": "Local Weather",
 		"thumbnail": "https://XXX.jpg",
-		"description": "This is a product and technical description for the project",
-		"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+		"description": "This Project allows you to sign in as a user. You can check the forecast for the day a or for the next five days. Also, I you see a day that you really like you can add it to your favorites",
+		"technologiesUsed": "firebase,jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
 		"available": true,
-		"url": "https://XXX.firebaseapp.com",
-		"github": "https://github.com/XXX"
+		"url": "https://local-weather-a19a8.firebaseapp.com/",
+		"github": "https://github.com/MakenHubbard/local-weather"
 	},
 	"project2": {
-		"title": "ChattyDom",
-		"thumbnail": "https://XXX.jpg",
-		"description": "This is a product and technical description for the project",
+		"title": "Ex Tracker",
+		"thumbnail": "Image Being collected",
+		"description": "THis is a project that was created to keep an eye on your exs' so that you could avoid. By clicking on one the ex cards it will display a card that has the infor on that particular ex and also the places that ex will be so that you could avoid them",
 		"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
 		"available": true,
-		"url": "https://XXX.firebaseapp.com",
-		"github": "https://github.com/XXX"
+		"url": "Coming Soon",
+		"github": "https://github.com/MakenHubbard/Ex-Tracker"
 	},
 	"project3": {
 		"title": "Nutshell",
-		"thumbnail": "https://XXX.jpg",
-		"description": "This is a product and technical description for the project",
-		"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+		"thumbnail": "Image being collected",
+		"description": "This site like a place where you can share various things and acquire friends. You can add and remove freinds and messages. you share articles and tasks you are looking to complete and more. Just check it out ",
+		"technologiesUsed": " firebase, jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
 		"available": true,
-		"url": "https://XXX.firebaseapp.com",
-		"github": "https://github.com/XXX"
+		"url": "https://nutshell-df075.firebaseapp.com/",
+		"github": "https://github.com/MakenHubbard/nutshell-adobe-bricks"
 	}
 }
