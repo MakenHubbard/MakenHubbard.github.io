@@ -21,9 +21,34 @@ const buildDomForProjects = () => {
       let projectString = '';
       projectsArray.forEach((project) => {
         projectString += `<div class="jumbotron">`;
+        projectString += `<img src="../images/localWeather.jpg" rel="sign-up-page">`;
         projectString += `<h1>${project.title}</h1>`;
         projectString += `<p>${project.description}</p>`;
-        projectString += `  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>`;
+        projectString += `<span> Technologies used: ${project.technologiesUsed}</span>`;
+        projectString += `<ul>`;
+        projectString += `<li>URL: ${project.url}</li>`;
+        projectString += `<li>Github: ${project.github}`;
+        projectString += `</ul>`;
+        projectString += `</div >`;
+      });
+      printProjectsToDom(projectString);
+    });
+};
+
+const learnMoreDom = () => {
+  firebaseApi.getProjectsFromFirebase()
+    .then((projectsArray) => {
+      let projectString = '';
+      projectsArray.forEach((project) => {
+        projectString += `<div class="jumbotron">`;
+        projectString += `<img src="../images/localWeather.jpg" rel="sign-up-page">`;
+        projectString += `<h1>${project.title}</h1>`;
+        projectString += `<p>${project.description}</p>`;
+        projectString += `<span> Technologies used: ${project.technologiesUsed}</span>`;
+        projectString += `<ul>`;
+        projectString += `<li>URL: ${project.url}</li>`;
+        projectString += `<li>Github: ${project.github}`;
+        projectString += `</ul>`;
         projectString += `</div >`;
       });
       printProjectsToDom(projectString);
@@ -41,4 +66,5 @@ const printProjectsToDom = (project) => {
 module.exports = {
   buildDomForBlogs,
   buildDomForProjects,
+  learnMoreDom,
 };
