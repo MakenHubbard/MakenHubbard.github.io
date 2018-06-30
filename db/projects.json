@@ -6,7 +6,7 @@
 		"technologiesUsed": "firebase,jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
 		"available": true,
 		"url": "https://local-weather-a19a8.firebaseapp.com/",
-		"github": "https://github.com/XXX"
+		"github": "https://github.com/MakenHubbard/local-weather"
 	},
 	"project2": {
 		"title": "Ex Tracker",
@@ -15,7 +15,7 @@
 		"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
 		"available": true,
 		"url": "Coming Soon",
-		"github": "https://github.com/XXX"
+		"github": "https://github.com/MakenHubbard/Ex-Tracker"
 	},
 	"project3": {
 		"title": "Nutshell",
@@ -23,7 +23,7 @@
 		"description": "This site like a place where you can share various things and acquire friends. You can add and remove freinds and messages. you share articles and tasks you are looking to complete and more. Just check it out ",
 		"technologiesUsed": " firebase, jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
 		"available": true,
-		"url": "https://XXX.firebaseapp.com",
-		"github": "https://github.com/XXX"
+		"url": "https://nutshell-df075.firebaseapp.com/",
+		"github": "https://github.com/MakenHubbard/nutshell-adobe-bricks"
 	}
 }
