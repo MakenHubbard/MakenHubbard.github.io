@@ -21,6 +21,7 @@ const buildDomForProjects = () => {
       let projectString = '';
       projectsArray.forEach((project) => {
         projectString += `<div class="jumbotron">`;
+        projectString += `<img src="${project.thumbnail}" rel="${project.title}">`;
         projectString += `<h1>${project.title}</h1>`;
         projectString += `<p>${project.description}</p>`;
         projectString += `<span> Technologies used: ${project.technologiesUsed}</span>`;
