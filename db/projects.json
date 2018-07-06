@@ -1,7 +1,7 @@
 {
 	"project1": {
 		"title": "Local Weather",
-		"thumbnail": "https://XXX.jpg",
+		"thumbnail": "https://raw.githubusercontent.com/MakenHubbard/local-weather/master/screenshots/localWeather.JPG",
 		"description": "This Project allows you to sign in as a user. You can check the forecast for the day a or for the next five days. Also, I you see a day that you really like you can add it to your favorites",
 		"technologiesUsed": "firebase,jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
 		"available": true,
