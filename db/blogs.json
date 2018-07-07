@@ -92,6 +92,11 @@
 	"blog18": {
 		"title": "React",
 		"date": "6/29/2018",
-		"post": "Hmm what to say about React. Number one: It is a lot of setup and I mean a lot, I had to write down step by step directions and it helps but still makes for a slow go. I think React is super cool but cinsidering we just started with it... It is still pretty confusing. I feel good about using the components but its when it comes state stuff is when I start to get confused. I can see though why its good language. I feel that if I could learn this language it could be super beneficial and pretty awesome."
+		"post": "Hmm what to say about React. Number one: It is a lot of setup and I mean a lot, I had to write down step by step directions and it helps but still makes for a slow go. I think React is super cool but considering we just started with it... It is still pretty confusing. I feel good about using the components but its when it comes state and props is when I start to get confused. I can see though why its a good language. I feel that if I could learn this language it could be super beneficial and pretty awesome."
+	},
+	"blog19": {
+		"title": "React-Posting Data",
+		"date": "7/6/2018",
+		"post": "The more I learn about React the more I like it. There are still confusing parts to it in reference to passing functions and variables from one component to another. We have learned how to post data to firebase. the actual request was pretty similar to what we have been doing. The structure of the data being sent and how to set it is different. Luckily, I have some pretty patient instructors that helped me find syntax errors. "
 	}
 }
