@@ -9,6 +9,7 @@ const getConfig = () => {
 const setConfig = (newConfig) => {
   config = newConfig;
 };
+
 const loadConfig = () => {
   return new Promise((resolve, reject) => {
     $.ajax({
