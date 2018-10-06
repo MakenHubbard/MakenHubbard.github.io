@@ -18,12 +18,12 @@
 		"github": "https://github.com/MakenHubbard/Ex-Tracker"
 	},
 	"project3": {
-		"title": "Nutshell",
-		"thumbnail": "Image being collected",
-		"description": "This site like a place where you can share various things and acquire friends. You can add and remove freinds and messages. you share articles and tasks you are looking to complete and more. Just check it out ",
-		"technologiesUsed": " firebase, jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+		"title": "Front End Capstone - MuncherTrux",
+		"thumbnail": "https://raw.githubusercontent.com/MakenHubbard/MuncherTrux/master/screenshots/LandingPage.JPG",
+		"description": "As a food truck business owner, you can create your own profile that wil display information about your company as well as the events you plan to attend. If you are a user of this site, you have the ability to see al the food trucks and where you can find them according to what events they will be attending; ",
+		"technologiesUsed": " Firebase, React,Task Automation, SCSS Animations, Version Control with Github",
 		"available": true,
-		"url": "https://nutshell-df075.firebaseapp.com/",
-		"github": "https://github.com/MakenHubbard/nutshell-adobe-bricks"
+		"url": "https://munchertrux.firebaseapp.com",
+		"github": "https://github.com/MakenHubbard/MuncherTrux"
 	}
 }
