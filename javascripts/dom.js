@@ -21,13 +21,13 @@ const buildDomForProjects = () => {
       let projectString = '';
       projectsArray.forEach((project) => {
         projectString += `<div class="jumbotron">`;
-        projectString += `<img src="${project.thumbnail}" rel="${project.title}">`;
-        projectString += `<h1>${project.title}</h1>`;
+        projectString += `<img id="projectImg" src="${project.thumbnail}" rel="${project.title}">`;
+        projectString += `<h1 class="projectsTitle">${project.title}</h1>`;
         projectString += `<p>${project.description}</p>`;
         projectString += `<span> Technologies used: ${project.technologiesUsed}</span>`;
         projectString += `<ul>`;
-        projectString += `<li>URL: <a href="${project.url}">Click Here</a></li>`;
-        projectString += `<li>Github: <a href="${project.github}">Click Here</a>`;
+        projectString += `<li><strong>URL:</strong> <button class="projectButts"><a href="${project.url}">Click</a></button></li>`;
+        projectString += `<li><strong>Github:</strong> <button class="projectButts"><a href="${project.github}">Click</a></button></li>`;
         projectString += `</ul>`;
         projectString += `</div >`;
       });
