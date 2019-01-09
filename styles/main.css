@@ -22,29 +22,29 @@ body {
 
 /*------------------NAV BAR------------------*/
 
-button {
-     margin-top:20px;
-    font-family: 'Eater', cursive;
-    font-size: 60px;
-    opacity: 0.8;
+.navbar {
+    border: none;
+    color: white;
+}
+
+.navbar-nav a{
+    cursor: pointer;
+    font-size: 20px;
 }
 
 #brandName {
-    font-size: 60px;
-    color: black;
+    font-size: 25px;
+    color: white;
+    font-family: italic
 }
 
 #brandName:hover {
-    font-family: 'Eater', cursive;
-    font-size: 60px;
-}
-
-button:hover {
-    opacity: 1;
+    font-family: Helvetica;
+    font-size: 25px;
 }
 
 .navBack {
-    background-color: lightskyblue;
+    background-color: black;
     box-sizing: 0;
 }
 
