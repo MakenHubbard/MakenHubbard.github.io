@@ -1,7 +1,7 @@
 /*------------------HTML--------------------*/
 
 body {
-    background: url(../images/main-page.jpg) no-repeat center center fixed;
+    background: url(../images/newMainPage.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,7 +50,7 @@ body {
 
 /*----------------HEAD PAGE----------------*/
 h1{
-    font-family: 'Pacifico', cursive;
+    font-family: 'italic';
 }
 
 #aboutMe {
@@ -60,8 +60,7 @@ h1{
     margin-top: 40px;
     margin-left: 50px;
     padding: 5px 20px;
-    background-color: lightslategray;
-    opacity: .9;
+
     color: white;
     border-radius: 4%;
 }
@@ -75,7 +74,7 @@ h1{
 }
 
 #myName {
-    background-color: slategray;
+
     border-radius: 4%;
     opacity: .9;
     color: white;
@@ -118,16 +117,6 @@ img {
     }
   }
 
-
-  /*--------------BLOGS PAGE---------------*/
-
-#blogsPage{
-    padding: 20px 30px;
-    background-color: lightslategray;
-    opacity: .9;
-    color: white;
-}
-
 /*----------------PROJECT PAGE-------------*/
 
 
@@ -156,11 +145,23 @@ img {
 
 /*---------------TECHNOLOGIES PAGE-------------*/
 
-.techs {
-    height: 100px;
-    width: 100px;
+
+i {
+    font-size: 12rem;
+    padding-top: 20px;
 }
 
+.col-md-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#techId {
+    padding-top: 35px;
+    float: right;
+    font-size: 32px;
+    color: white;
+}
 
 
 
